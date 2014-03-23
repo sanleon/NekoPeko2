@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/GamePlayScene.cpp"
+            timestampString = "417073956.360265"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "GamePlayScene::init()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::showGamePlayBackground()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Applications/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417074677.42648"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::init()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Applications/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417074677.426944"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::create()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Applications/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417074677.427335"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/GamePlayScene.cpp"
+            timestampString = "417078406.546771"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "GamePlayScene::showGamePlayBackground()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::init()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Applications/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417099888.742506"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::showGamePlayBackground()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Applications/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417099888.742909"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::create()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Applications/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417099888.743282"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "265">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/GamePlayScene.cpp"
+            timestampString = "417099891.771589"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "GamePlayScene::showGamePlayBackground()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::init()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Applications/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417099891.774418"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "103">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::showGamePlayBackground()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Applications/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417099891.774825"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::create()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Applications/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417099891.775133"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "288">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/GamePlayScene.cpp"
+            timestampString = "417188169.138335"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "393"
+            endingLineNumber = "393">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::getSameColorTileTags()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Applications/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417141926.797507"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "372"
+                  endingLineNumber = "372"
+                  offsetFromSymbolStart = "608">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::getSameColorTileTags()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Applications/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417141926.799581"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "372"
+                  endingLineNumber = "372"
+                  offsetFromSymbolStart = "848">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::hasSameColorTile(std::list&lt;int, std::allocator&lt;int&gt; &gt;, int)"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Applications/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417141926.799886"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "372"
+                  endingLineNumber = "372"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/GamePlayScene.cpp"
+            timestampString = "417188169.138335"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "394"
+            endingLineNumber = "394">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::getSameColorTileTags()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Applications/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417141926.86378"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "372"
+                  endingLineNumber = "372"
+                  offsetFromSymbolStart = "608">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::getSameColorTileTags()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Applications/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417141926.864219"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "372"
+                  endingLineNumber = "372"
+                  offsetFromSymbolStart = "848">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::hasSameColorTile(std::list&lt;int, std::allocator&lt;int&gt; &gt;, int)"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Applications/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417141926.864629"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "372"
+                  endingLineNumber = "372"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/GamePlayScene.cpp"
+            timestampString = "417188169.138335"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "643"
+            endingLineNumber = "643"
+            landmarkName = "GamePlayScene::getBlankTileTags()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::getBlankTileTags()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Users/sbjo/Dropbox/Dev/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417188169.589245"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "645"
+                  endingLineNumber = "645"
+                  offsetFromSymbolStart = "189">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "non-virtual thunk to GamePlayScene::~GamePlayScene()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Users/sbjo/Dropbox/Dev/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.h"
+                  timestampString = "417188169.589785"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "non-virtual thunk to GamePlayScene::~GamePlayScene()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Users/sbjo/Dropbox/Dev/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.h"
+                  timestampString = "417188169.59011"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "18">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/GamePlayScene.cpp"
+            timestampString = "417188169.138335"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "640"
+            endingLineNumber = "640"
+            landmarkName = "GamePlayScene::getBlankTileTags()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::getBlankTileTags()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Users/sbjo/Dropbox/Dev/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417188169.61931"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "645"
+                  endingLineNumber = "645"
+                  offsetFromSymbolStart = "189">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "non-virtual thunk to GamePlayScene::~GamePlayScene()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Users/sbjo/Dropbox/Dev/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.h"
+                  timestampString = "417188169.619565"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "non-virtual thunk to GamePlayScene::~GamePlayScene()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Users/sbjo/Dropbox/Dev/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.h"
+                  timestampString = "417188169.619847"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "18">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/GamePlayScene.cpp"
+            timestampString = "417188169.138335"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "636"
+            endingLineNumber = "636"
+            landmarkName = "GamePlayScene::getBlankTileTags()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/GamePlayScene.cpp"
+            timestampString = "417188169.138335"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "639"
+            endingLineNumber = "639"
+            landmarkName = "GamePlayScene::getBlankTileTags()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::getBlankTileTags()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Users/sbjo/Dropbox/Dev/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417188169.6215"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "645"
+                  endingLineNumber = "645"
+                  offsetFromSymbolStart = "189">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "non-virtual thunk to GamePlayScene::~GamePlayScene()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Users/sbjo/Dropbox/Dev/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.h"
+                  timestampString = "417188169.62188"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "non-virtual thunk to GamePlayScene::~GamePlayScene()"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Users/sbjo/Dropbox/Dev/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.h"
+                  timestampString = "417188169.622094"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "18">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/GamePlayScene.cpp"
+            timestampString = "417188169.138335"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "481"
+            endingLineNumber = "481"
+            landmarkName = "GamePlayScene::removingTile(cocos2d::CCNode *tile)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/GamePlayScene.cpp"
+            timestampString = "417188169.138335"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "550"
+            endingLineNumber = "550"
+            landmarkName = "GamePlayScene::moveBlock()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/GamePlayScene.cpp"
+            timestampString = "417188169.138335"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
+            landmarkName = "GamePlayScene::removeTouchTile(int tileTag, kTile tileType)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::ccTouchEnded(cocos2d::CCTouch*, cocos2d::CCEvent*)"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Users/sbjo/Dropbox/Dev/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417188169.625715"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "205"
+                  endingLineNumber = "205"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamePlayScene::removeTouchTile(int, kTile)"
+                  moduleName = "NekoPeko2"
+                  urlString = "file:///Users/sbjo/Dropbox/Dev/cocos2d-x-2.2.2/projects/NekoPeko2/Classes/GamePlayScene.cpp"
+                  timestampString = "417188169.626008"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "205"
+                  endingLineNumber = "205"
+                  offsetFromSymbolStart = "3">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/GamePlayScene.cpp"
+            timestampString = "417188169.138335"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
+            landmarkName = "GamePlayScene::removeTile(int tileTag, kTile tileType)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/GamePlayScene.cpp"
+            timestampString = "417188169.138335"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "GamePlayScene::removeTile(int tileTag, kTile tileType)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
