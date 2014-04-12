@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		112AF4E318DBDD6700B74D55 /* CCPlaySE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 112AF4E118DBDD6700B74D55 /* CCPlaySE.cpp */; };
-		11DCEC7A18DBE9E50033E24C /* GamePlayScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11DCEC7818DBE9E50033E24C /* GamePlayScene.cpp */; };
 		11DCEC8218DC0B490033E24C /* blue-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DCEC7C18DC0B490033E24C /* blue-tile.png */; };
 		11DCEC8318DC0B490033E24C /* game-play-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DCEC7D18DC0B490033E24C /* game-play-bg.png */; };
 		11DCEC8418DC0B490033E24C /* green-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DCEC7E18DC0B490033E24C /* green-tile.png */; };
@@ -234,6 +233,7 @@
 		379BB9D317F03F3700829B88 /* GUIReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB99117F03F3700829B88 /* GUIReader.cpp */; };
 		379BB9D417F03F3700829B88 /* SceneReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB99317F03F3700829B88 /* SceneReader.cpp */; };
 		46513EB1187BFBA200B5ABE1 /* UITouchGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46513EAF187BFBA200B5ABE1 /* UITouchGroup.cpp */; };
+		70029CE018F0286D00027F40 /* GamePlayScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70029CDE18F0286D00027F40 /* GamePlayScene.cpp */; };
 		7855E0E1153FEF240059DD9A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7855E0DF153FEF240059DD9A /* Default.png */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
@@ -270,8 +270,6 @@
 /* Begin PBXFileReference section */
 		112AF4E118DBDD6700B74D55 /* CCPlaySE.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CCPlaySE.cpp; path = ../Classes/CCPlaySE.cpp; sourceTree = "<group>"; };
 		112AF4E218DBDD6700B74D55 /* CCPlaySE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCPlaySE.h; path = ../Classes/CCPlaySE.h; sourceTree = "<group>"; };
-		11DCEC7818DBE9E50033E24C /* GamePlayScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GamePlayScene.cpp; path = ../Classes/GamePlayScene.cpp; sourceTree = "<group>"; };
-		11DCEC7918DBE9E50033E24C /* GamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GamePlayScene.h; path = ../Classes/GamePlayScene.h; sourceTree = "<group>"; };
 		11DCEC7C18DC0B490033E24C /* blue-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-tile.png"; sourceTree = "<group>"; };
 		11DCEC7D18DC0B490033E24C /* game-play-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game-play-bg.png"; sourceTree = "<group>"; };
 		11DCEC7E18DC0B490033E24C /* green-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-tile.png"; sourceTree = "<group>"; };
@@ -734,6 +732,8 @@
 		379BB99417F03F3700829B88 /* SceneReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneReader.h; sourceTree = "<group>"; };
 		46513EAF187BFBA200B5ABE1 /* UITouchGroup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UITouchGroup.cpp; sourceTree = "<group>"; };
 		46513EB0187BFBA200B5ABE1 /* UITouchGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITouchGroup.h; sourceTree = "<group>"; };
+		70029CDE18F0286D00027F40 /* GamePlayScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GamePlayScene.cpp; path = ../Classes/GamePlayScene.cpp; sourceTree = "<group>"; };
+		70029CDF18F0286D00027F40 /* GamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GamePlayScene.h; path = ../Classes/GamePlayScene.h; sourceTree = "<group>"; };
 		7855E0DF153FEF240059DD9A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
@@ -1271,11 +1271,11 @@
 				112AF4E218DBDD6700B74D55 /* CCPlaySE.h */,
 				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
-				11DCEC7818DBE9E50033E24C /* GamePlayScene.cpp */,
-				11DCEC7918DBE9E50033E24C /* GamePlayScene.h */,
 				11DCEC8818DC0E640033E24C /* Config.h */,
 				35C3DD570F350A6558A090F2 /* TileSprite.cpp */,
 				35C3D24593117EE3DAC235BA /* TileSprite.h */,
+				70029CDE18F0286D00027F40 /* GamePlayScene.cpp */,
+				70029CDF18F0286D00027F40 /* GamePlayScene.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -1779,6 +1779,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = VNL2937QG4;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NekoPeko2" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1987,7 +1992,6 @@
 				1AFCDA8216D4A25900906EA6 /* RootViewController.mm in Sources */,
 				1A8F3B6E175E05DA00049216 /* Animation.cpp in Sources */,
 				1A8F3B6F175E05DA00049216 /* AnimationState.cpp in Sources */,
-				11DCEC7A18DBE9E50033E24C /* GamePlayScene.cpp in Sources */,
 				1A8F3B70175E05DA00049216 /* AnimationStateData.cpp in Sources */,
 				1A8F3B71175E05DA00049216 /* Atlas.cpp in Sources */,
 				1A8F3B72175E05DA00049216 /* AtlasAttachmentLoader.cpp in Sources */,
@@ -2058,6 +2062,7 @@
 				379BB9D317F03F3700829B88 /* GUIReader.cpp in Sources */,
 				379BB9D417F03F3700829B88 /* SceneReader.cpp in Sources */,
 				35C3D2DDCA573F90B72EA867 /* TileSprite.cpp in Sources */,
+				70029CE018F0286D00027F40 /* GamePlayScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2076,8 +2081,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sungbum Jo (VNL2937QG4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sungbum Jo (VNL2937QG4)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -2113,8 +2118,8 @@
 				);
 				OTHER_CFLAGS = "-O2";
 				PRODUCT_NAME = NekoPeko2;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "ED473CEE-0185-475D-8871-9A89A68ED38C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "ED473CEE-0185-475D-8871-9A89A68ED38C";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -2126,8 +2131,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sungbum Jo (VNL2937QG4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sungbum Jo (VNL2937QG4)";
 				COPY_PHASE_STRIP = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2160,8 +2165,8 @@
 					"\"$(SRCROOT)/../../../external/libwebsockets/ios/lib\"",
 				);
 				PRODUCT_NAME = NekoPeko2;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "ED473CEE-0185-475D-8871-9A89A68ED38C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "ED473CEE-0185-475D-8871-9A89A68ED38C";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";

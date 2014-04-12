@@ -6,15 +6,15 @@
 
 void TileSprite::initNextPos()
 {
-    m_nextPosX = -1;
-    m_nextPosY = -1;
+    nextPosX = -1;
+    nextPosY = -1;
 }
 
-void TileSprite::setNextPos(int nextPosX, int nextPosY)
-{
-    m_nextPosX = nextPosX;
-    m_nextPosY = nextPosY;
-}
+//void TileSprite::setNextPos(int _nextPosX, int _nextPosY)
+//{
+//    nextPosX = _nextPosX;
+//    nextPosY = _nextPosY;
+//}
 
 TileSprite::TileSprite()
 {
@@ -25,12 +25,34 @@ TileSprite::~TileSprite()
 {
 }
 
-TileSprite* TileSprite::createWithTileType(kTile tileType)
+//TileSprite* TileSprite::createWithTileType(kTile tileType)
+//{
+//    return create(tileType, kStatusNormal);
+//}
+
+//TileSprite* TileSprite::create(kTile tileType, kStatus status)
+//{
+//    TileSprite *tileSprite = new TileSprite();
+//    tileSprite->setStatus(status);
+//    
+//    if (tileSprite && tileSprite->initWithTileType(tileType))
+//    {
+//        tileSprite->autorelease();
+//        return tileSprite;
+//    }
+//    else
+//    {
+//        CC_SAFE_DELETE(tileSprite);
+//        return NULL;
+//    }
+//}
+
+TileSprite* TileSprite::create(int tag, kTile tileType, kStatus status)
 {
     TileSprite *tileSprite = new TileSprite();
-    if (tileSprite && tileSprite->initWithTileType(tileType))
+    
+    if (tileSprite && tileSprite->init(tag, tileType, status))
     {
-        tileSprite->autorelease();
         return tileSprite;
     }
     else
@@ -40,15 +62,30 @@ TileSprite* TileSprite::createWithTileType(kTile tileType)
     }
 }
 
-bool TileSprite::initWithTileType(kTile tileType)
+//bool TileSprite::initWithTileType(kTile tileType)
+//{
+//    if (!CCSprite::initWithFile(getTileImageFileName(tileType)))
+//    {
+//        return false;
+//    }
+//
+//    tileType = tileType;
+//
+//    return true;
+//}
+
+bool TileSprite::init(int _tag, kTile _tileType, kStatus _status)
 {
-    if (!CCSprite::initWithFile(getTileImageFileName(tileType)))
+    if (!CCSprite::initWithFile(getTileImageFileName(_tileType)))
     {
         return false;
     }
-
-    m_tileType = tileType;
-
+    
+    tileType = _tileType;
+    tag = _tag;
+    status = _status;
+    
+    
     return true;
 }
 

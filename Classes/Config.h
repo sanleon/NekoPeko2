@@ -19,4 +19,10 @@ enum kTile
     kTileCount,
 };
 
+enum kStatus {
+    kStatusNormal,
+    kStatusMarked,
+    kStatusRemoved,
+};
+
 #endif

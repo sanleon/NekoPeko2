@@ -2,9 +2,8 @@
 //  GamePlayScene.h
 //  NekoPeko2
 //
-//  Created by Jo Sungbum on 2014/03/21.
+//  Created by A12889 on 14/04/05.
 //
-//  MAIN Puzzleを表示
 //
 
 #ifndef __NekoPeko2__GamePlayScene__
@@ -12,31 +11,47 @@
 
 #include "cocos2d.h"
 #include "Config.h"
+#include "TileSprite.h"
 
-// TODO Refac
-#define MAX_BLOCK_X 6
-#define MAX_BLOCK_Y 5
-#define REMOVING_TIME 0.1f
-#define MOVING_TIME 0.2f
+using namespace std;
+using namespace cocos2d;
 
-class GamePlayScene : public cocos2d::CCLayer
+const int kMaxTileX = 6;
+const int kMaxTileY = 5;
+const float kRemovingTime = 0.1f;
+const float kMovingTime = 0.3f;
+const int kTilePurgeThreshold = 3;
+
+const char* const kGamePlayBackgroundPng = "game-play-bg.png";
+
+enum kTag
+{
+    kTagRemoveTile = 0,
+    kTagBackground = 1,
+    kTagBaseTile = 10000,
+};
+
+enum kZOrder
+{
+    kZOrderBackground,
+    kZOrderTile,
+};
+
+class GamePlayScene : public CCLayer
 {
 private:
-    static const char GAME_PLAY_BACKGROUND_PNG[];
-
-protected:
-    enum kTag
+    
+    struct TouchedTile
     {
-        kTagBackground = 1,
-        kTagBaseTile = 10000,
+        TouchedTile(int _tag, kTile _type)
+        {
+            tag  = _tag;
+            type = _type;
+        }
+        int    tag;
+        kTile type;
     };
-
-    enum kZOrder
-    {
-        kZOrderBackground,
-        kZOrderTile,
-    };
-
+    
     struct PositionIndex
     {
         PositionIndex(int x1, int y1)
@@ -44,71 +59,85 @@ protected:
             x = x1;
             y = y1;
         }
-
         int x;
         int y;
     };
-
-    cocos2d::CCSprite* m_game_play_background;
-    void showGamePlayBackground();
-
-    float m_tileSize;
     
-    std::list<int> m_tags;
+
+    float tileSize;
     
-    std::map<int, int> m_tileMap;
-    // タイルの種類ことのグループ
-    std::map<kTile, std::list<int> > m_tileTags;
+    int currentTag;
+    int tmpCurrentTag;
+    int previousTag;
     
     void initForVariables();
     void showTile();
-    //　ポジションを取得する
-    cocos2d::CCPoint getPosition(int posIndexX, int posIndexY);
+    
+    
+    CCSprite *gamePlayBackground;
+    CCPoint getPosition(int posIndexX, int posIndexY);
+    PositionIndex getPositionIndex(int tag);
     // ポジションからタグを取得する
     int getTag(int posIndexX, int posIndexY);
     
-    void getTouchTileTag(cocos2d::CCPoint touchPoint, int &tag, kTile &tileType);
-    std::vector<kTile> tileTypes;
+    void getTouchTileTag(CCPoint touchPoint, int &tag, kTile &tileType);
+    
+    void showGamePlayBackground();
+    
+    vector<PositionIndex> horizontalTileCounting(int left, int top, kTile tile_type);
+    vector<PositionIndex> crossVerticalTileCounting(int left, int top, kTile tile_type);
+    vector<PositionIndex> verticalTileCounting(int left, int top, kTile tile_type);
+    vector<PositionIndex> crossHorizontalTileCounting(int left, int top, kTile tile_type);
+    int crossTileCounting(int left, int top, kTile tile_type);
 
-//    std::list<int> getSameColorTileTags(int baseTag, kTile tileTypes);
-    std::list<int> getSameColorTileTags(int baseTag, kTile tileTypes);
-
-    std::list<int> getSameColorTileTags();
-    void removeTouchTile(int tileTag, kTile tileType);
-    void removeTile(int tileTag, kTile tileType);
-    void removeTiles(std::list<int> tileTags, kTile tileType);
-    bool hasSameColorTile(std::list<int> tileTagList, int searchTileTag);
+    CCNode* createParticle(const char* plistFile, const CCPoint &tagPoint);
+    void removingParticle(CCNode* particle);
     
-    void removingTile(cocos2d::CCNode* tile);
-
-
-    PositionIndex getPositionIndex(int tag);
-    void setNewPosition1(int tag, PositionIndex posIndex);
-    void searchNewPosition1(std::list<int> tiles);
-    void moveBlock();
-    void movingTilesAnimation1(std::list<int> tiles);
+    void createTiles();
+    void prependRemoveTiles();
     
+    void removeTilesActionAnimation(CCNode* node);
+    void removeTilesAction();
+    void removeTiles();
     
-    std::list<int> getRightSameColorTiles(std::list<int> tileTagList, int baseTag);
-    std::list<int> getLeftSameColorTiles(std::list<int> tileTagList, int baseTag);
-    std::list<int> getTopSameColorTiles(std::list<int> tileTagList, int baseTag);
-    std::list<int> getDownSameColorTiles(std::list<int> tileTagList, int baseTag);
+    void removeTile();
     
+    void moveTiles();
+    void appendTiles();
+    void recursiveRemoveTiles();
+    void removeTileAnimation();
+    void removeOneTileAnimation();
+    void animationStart();
+    void animationEnd();
     
-    std::list<int> addNewTile();
-    std::list<int> getBlankTileTags();
+    TouchedTile getTouchedTile(CCPoint touchPoint);
     
-    bool m_animating;
-    void movedBlocks();
+   void removeTouchTile(int tileTag, kTile tileType);
+//    
+//    void removeTile(int tileTag, kTile tileType);
     
+protected:
 
 public:
+    
+//    GamePlayScene();
+    
+    vector<kTile> tileTypes;
+    vector<vector<TileSprite*> > tileFieldsVector;
+    
+    map<kTile, int> removedTileTypesCounter;
+    vector<TileSprite*> removedTilesVector;
+    vector<int> removedTags;
+  
+    
     virtual bool init();
-    static cocos2d::CCScene *scene();
+    static CCScene *scene();
     CREATE_FUNC(GamePlayScene);
     
-    virtual bool ccTouchBegan(cocos2d::CCTouch* pTouch, cocos2d::CCEvent* pEvent);
-    virtual void ccTouchEnded(cocos2d::CCTouch* pTouch, cocos2d::CCEvent* pEvent);
+    virtual bool ccTouchBegan(CCTouch* pTouch, CCEvent* pEvent);
+    virtual void ccTouchEnded(CCTouch* pTouch, CCEvent* pEvent);
 };
+
+
 
 #endif /* defined(__NekoPeko2__GamePlayScene__) */
